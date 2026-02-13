@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Tarjeta San Valentín</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Tarjeta cerrada -->
+    <div class="card" onclick="abrirTarjeta()">
+        💌 Haz clic para abrir
+    </div>
+
+    <!-- Contenido oculto -->
+    <div class="contenido" id="contenido">
+        <h2>¿Morena quieres ser mi San Valentín? ❤️</h2>
+        <button class="si" onclick="respuestaSi()">Sí 💖</button>
+        <button class="no" onclick="respuestaNo()">No 😢</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

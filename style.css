@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    font-family: Arial, sans-serif;
+}
+
+/* Tarjeta */
+.card{
+    width: 250px;
+    height: 150px;
+    background: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+/* Contenido oculto */
+.contenido{
+    display: none;
+    text-align: center;
+}
+
+/* Botones */
+button{
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.si{
+    background-color: #ff4d6d;
+    color: white;
+}
+
+.no{
+    background-color: gray;
+    color: white;
+}
